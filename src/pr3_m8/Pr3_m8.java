@@ -33,6 +33,22 @@ public class Pr3_m8 {
         
         System.out.println("Introdueix numero");
         int n5=entrada.nextInt();
+
+        
+        System.out.println("Introdueix numero");
+        int n6=entrada.nextInt();
+        
+        System.out.println("Introdueix numero");
+        int n7=entrada.nextInt();
+        
+        System.out.println("Introdueix numero");
+        int n8=entrada.nextInt();
+        
+        System.out.println("Introdueix numero");
+        int n9=entrada.nextInt();
+        
+        System.out.println("Introdueix numero");
+        int n10=entrada.nextInt();
         
         int max=0;
         
@@ -51,8 +67,24 @@ public class Pr3_m8 {
         if (n5>max){
             max=n5;
         }
+  if (n6>max){
+            max=n6;
+        }
+  if (n7>max){
+            max=n7;
+        }
+  if (n8>max){
+            max=n8;
+        }
+  if (n9>max){
+            max=n9;
+        }
+  if (n10>max){
+            max=n10;
+        }
         
         System.out.println("El mes gran es "+max);
     }
     
 }
+
